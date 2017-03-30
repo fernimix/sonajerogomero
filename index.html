@@ -1,23 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+
   <!--  Meta  -->
   <meta charset="UTF-8" />
   <title>Sonajeros Gomeros</title>
-  
+
   <!--  Styles  -->
   <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.min.css" />
 </head>
 <body>
-  <!-- contenedor para Flex-->
-  <div class="contenedor">
-  <div></div>
-  <div></div>
-  <div></div>
-</div>
-  
+
+ <header id="main-header">
+   <nav> <!-- Menu -->
+    <ul id="menu">
+        <li class="active"><a href="#page1">INICIO</a></li>
+        <li><a href="#page2">USO</a></li>
+        <li><a href="#page3">CARACTERISTICAS</a></li>
+        <li><a href="#page4">COMPARATIVA</a></li>
+        <li><a href="#page5">CONTACTO</a></li>
+    </ul>
+   </nav>
+ </header>
+  <div id="pagepiling">
+    <div id="page1" class="section">
+      <div class="item item-0">0</div>
+      <div class="item titulo">
+        <h1 class="title">Sonajeros Gomeros</h1>
+        <h2 class="subtitle">Un sonajero para unirlos a todos</h2>
+      </div>
+    </div>
+    <div id="page2" class="section">
+      <div class="item item-1">1</div>
+    </div>
+    <div id="page3" class="section">
+      <div class="item item-30">1</div>
+      <div class="item item-31">2</div>
+      <div class="item item-32">3</div>
+    </div>
+    <div id="page4" class="section">
+      <div class="item item-3">3</div>
+    </div>
+    <div id="page5" class="section">
+      <div class="item item-5">5</div>
+    </div>
+  </div>
   <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.min.js"></script>
   <script src="scripts/index.js"></script>
 </body>
+<footer>
+  <div class="">
+
+  </div>
+</footer>
 </html>
+
