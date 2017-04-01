@@ -138,12 +138,45 @@ header li:hover a { color: #FFF; } /* color fuente al pasar el puntero por el me
 
 /* section CONTACTO */
 #page5 .item {
-  width: 50px;
-  height: 60px;
-  border: 0px solid #2d2d2d;
+  height: auto;
   margin: 50px;
-  background: #666;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
+/*FORMULARIO*/
+form { text-align: center;margin: 20px auto;}
+
+input, textarea {
+    border:0;
+    outline:0;
+    padding: 1em;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow(0 1px 1px rgba(black, 0.1));
+    resize: none;
+  }
+
+  input, textarea {
+    box-shadow(0 0px 2px rgba(red, 1)!important);
+  }
+
+.enviar {
+     color: white;
+     background: red;
+     cursor: pointer;
+     width: 600px;
+     border-radius: 8px;
+     margin-left: 20px;
+  }
+
+  .enviar:hover {
+    box-shadow(0 1px 1px 1px rgba(#aaa, 0.6));
+  }
+  textarea { height: 126px; }
 
 /* COLOR DE LOS DIV -- FONDO DE CADA DIV -- CONTENIDO  #eff5f5*/
 #pagepiling > div:nth-child(1) { background: #eff5f5; }
@@ -248,4 +281,3 @@ height:100%;
   margin-left:40px;
   color: #fff;
 }
-
