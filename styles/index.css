@@ -114,15 +114,24 @@ header li:hover a { color: #FFF; } /* color fuente al pasar el puntero por el me
   display: inline-flex;
 }
 
-/* section COMPARATIVA */
+/* section NUESTROS SONAJEROS */
 #page4 .item {
   width: 300px;
   height: 300px;
-  border: 0px solid #2d2d2d;
   margin: 50px;
   padding: 30px;
   background: #666;
   display: inline-flex;
+  justify-content: center;
+}
+
+.item-4.5 {
+  align-items: center;
+}
+
+.sonajero {
+  width: 300px;
+  height: 300px;
 }
 
 /* section CONTACTO */
@@ -140,4 +149,3 @@ header li:hover a { color: #FFF; } /* color fuente al pasar el puntero por el me
 #pagepiling > div:nth-child(3) { background: #39b4e0; }
 #pagepiling > div:nth-child(4) { background: #e4582b; }
 #pagepiling > div:nth-child(5) { background: #f8c624; }
-
