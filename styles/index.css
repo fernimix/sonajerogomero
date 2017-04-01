@@ -119,14 +119,16 @@ header li:hover a { color: #FFF; } /* color fuente al pasar el puntero por el me
   width: 300px;
   height: 300px;
   margin: 50px;
-  padding: 30px;
-  background: #666;
+  padding: 20px;
+  background: #fff;
   display: inline-flex;
   justify-content: center;
 }
 
-.item-4.5 {
-  align-items: center;
+ #items .item-45 {
+  display: inline-flex !important;
+  justify-content: center;
+  margin-left: 500px;
 }
 
 .sonajero {
