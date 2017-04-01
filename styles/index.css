@@ -1,31 +1,22 @@
 /* TIPOGRAFIA */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 /* TIPOLOGIA */
-h1 {display:flex; font-size: 2em; color: white; font-family: 'Montserrat', sans-serif; width: auto; height: auto;}
+h1 {
+  font-size: 2em;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
 a {font-family: 'Montserrat', sans-serif;}
 p {display:flex;font-family: 'Montserrat', sans-serif; font-size: 0.8em; color: #fff;}
 
-/*#page3 .tc {
-  height: 50px;
+.tc {
   font-weight: 700;
   font-size: 2em;
   line-height: 1.2;
-  color: #fff;
-  margin-bottom: 10px;
-  text-align: justify;
-  display: inline-flex;
-  flex-direction: column;
+  color: #e4582b;
+  text-align: center;
 }
-
-#page3 .ts {
-  height: 20px;
-  font-weight: 400;
-  font-size: 0.9em;
-  color: #fff;
-  text-align: justify;
-  display: inline-flex;
-  flex-direction: column;
-}*/
 
 /* style del html y body */
 html, body {
@@ -61,8 +52,6 @@ header li:hover { background: #597a80; } /* color fondo al pasar el puntero por 
 header li:hover a { color: #FFF; } /* color fuente al pasar el puntero por el menu */
 
  section {
-    display: table-cell;
-    vertical-align: middle;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -130,11 +119,13 @@ header li:hover a { color: #FFF; } /* color fuente al pasar el puntero por el me
 #page3 .item {
   width: 300px;
   height: 300px;
-  border: 0px solid #2d2d2d;
   margin: 50px;
   padding: 30px;
-  background: #666;
+  background: #eff5f5;
+  border-radius: 10px;
   display: inline-flex;
+  justify-content: center;
+
 }
 
 /* section NUESTROS SONAJEROS */
@@ -143,7 +134,8 @@ header li:hover a { color: #FFF; } /* color fuente al pasar el puntero por el me
   height: 300px;
   margin: 50px;
   padding: 20px;
-  background: #fff;
+  background: #eff5f5;
+  border-radius: 10px;
   display: inline-flex;
   justify-content: center;
 }
@@ -210,11 +202,6 @@ input, textarea {
 
 /* FOOTER CON HOVER */
 .footer #arrow{
-  /*height: 0;
-  width: 0;
-  transform: rotate(-45deg);
-  border-top: 40px solid #2d2d2d;
-  border-left: 40px solid transparent;*/
 position: relative;
   -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -223,11 +210,6 @@ position: relative;
     transition: all 1s ease;
 }
 .footer #arrow:hover {
-  /*height: 0;
-  width: 0;
-  transform: rotate(-45deg);
-  border-top: 40px solid #2d2d2d;
-  border-left: 40px solid transparent;*/
   -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
